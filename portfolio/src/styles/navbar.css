@@ -1,0 +1,36 @@
+.nav{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.767);
+    position: sticky;
+    background-color: black;
+}
+#navbar{
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+#logo{
+    border: 0px solid white;
+    width: 50%;
+}
+#menu{
+    border: 0px solid white;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-family:sans-serif;
+}
+#menu > p{
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#menu > p:hover{
+    border: 0px solid white;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color:black;
+}

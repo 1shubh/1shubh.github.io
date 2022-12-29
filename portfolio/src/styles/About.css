@@ -1,0 +1,21 @@
+#about{
+    border: 0px solid white;
+    display: flex;
+    margin-top: 0px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.about{
+    width: 50%;
+    border: 1px solid white;
+}
+#avatar>img{
+    border-radius: 50%;
+    border: 0px solid white;
+    width: 80%;
+}
+.homevideo{
+    width: 100%;
+}
