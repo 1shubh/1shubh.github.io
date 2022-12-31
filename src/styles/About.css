@@ -4,17 +4,63 @@
     margin-top: 0px;
     width: 80%;
     margin: auto;
-    margin-top: 20px;
-    justify-content: space-between;
+    margin-top: 80px;
+    justify-content: center;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 2s;
 }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 .about{
-    width: 50%;
-    border: 1px solid white;
+    width: 60%;
+    border: 0px solid white;
+    margin-right: 25px;
+}
+.name{
+    color: #00baf2;
+}
+.contactLogoMail:hover{
+    box-shadow: rgb(241,99,90) 0px 3px 8px;
+}
+.contactLogolink:hover{
+    box-shadow: rgb(0,127,188) 0px 3px 8px;
+}
+.contactLogoGit:hover{
+    box-shadow: rgb(128,216,255) 0px 3px 8px;
+}
+#avatar{
+    width: 30%;
 }
 #avatar>img{
     border-radius: 50%;
     border: 0px solid white;
-    width: 80%;
+    width: 100%;
+    
 }
 .homevideo{
     width: 100%;

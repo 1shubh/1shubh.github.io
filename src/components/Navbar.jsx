@@ -6,7 +6,7 @@ export const Navbar = () => {
     <div className='nav'>
     <div id='navbar'>
         <div id='logo'>
-           <img width={"45%"} src="https://drive.google.com/uc?export=view&id=1fz03eh6uKWkQmFJYVfCfZfXZTCeaUe3v" alt="logo" />
+           <img width={"55%"} src="https://drive.google.com/uc?export=view&id=1iNDQxIZu9jB8hn52khUpMBqV-0V6dIU0" alt="logo" />
         </div>
         <div id='menu'>
             <p>About</p>
