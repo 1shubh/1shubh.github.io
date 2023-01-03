@@ -1,40 +1,49 @@
 .nav{
-    border-bottom: 1px solid rgba(255, 255, 255, 0.767);
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.767); */
     position: fixed;
-    background-color: black;
+    background-color:transparent;
     overflow: hidden;
     top: 0px;
     z-index: 1;
+    /* box-shadow: rgba(255, 255, 255, 0.386) 0px 3px 8px; */
+}
+.active {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.767);
+    background-color: black;
     box-shadow: rgba(255, 255, 255, 0.386) 0px 3px 8px;
 }
 #navbar{
     color: white;
-    height: 60px;
-    display: flex;
-    justify-content: space-around;
+    height: auto;
+    /* display: flex; */
+    /* justify-content: space-around; */
     align-items: center;
-    width: 80%;
-    margin: auto;
+    width: 85%;
+    border: 0px solid white;
+    padding: 7px;
 }
 #logo{
     border: 0px solid white;
-    width: 50%;
 }
 #menu{
     border: 0px solid white;
     display: flex;
     justify-content: space-between;
-    width: 30%;
     font-family:sans-serif;
 }
-#menu > p{
-    padding: 7px;
+#menu > p {
+    padding-top: 6px;
+    padding-bottom: 6px;
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 10px;
+    font-weight:100;
+    letter-spacing: 1px;
 }
 #menu > p:hover{
     border: 0px solid white;
     cursor: pointer;
-    background-color: rgb(255, 255, 255);
-    color:black;
+    /* background-color: #ffc400;
+    color:black; */
+    color:#ffc400 ;
 }

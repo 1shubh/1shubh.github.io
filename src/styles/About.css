@@ -4,13 +4,16 @@
     margin-top: 0px;
     width: 80%;
     margin: auto;
-    margin-top:56px;
-    justify-content: center;
+    /* margin-top:56px; */
+    justify-content: space-around;
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 3s;
     -moz-animation: fadeIn 3s;
     -o-animation: fadeIn 3s;
     -ms-animation: fadeIn 2s;
+    position: absolute;
+    top: 8%;
+    left: 10%;
 }
 @keyframes fadeIn {
     0% { opacity: 0; }
@@ -43,7 +46,7 @@
     margin-top: 50px;
 }
 .name{
-    color: #00baf2;
+    color: #ffc400;
 }
 .contactLogoMail:hover{
     box-shadow: rgb(241,99,90) 0px 3px 8px;
@@ -59,10 +62,9 @@
     margin-top: 50px;
 }
 #avatar>img{
-    border-radius: 50%;
+    border-radius: 55%;
     border: 0px solid white;
     width: 100%;
-    
 }
 .homevideo{
     width: 100%;
