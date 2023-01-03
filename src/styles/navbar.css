@@ -1,7 +1,11 @@
 .nav{
     border-bottom: 1px solid rgba(255, 255, 255, 0.767);
-    position: sticky;
+    position: fixed;
     background-color: black;
+    overflow: hidden;
+    top: 0px;
+    z-index: 1;
+    box-shadow: rgba(255, 255, 255, 0.386) 0px 3px 8px;
 }
 #navbar{
     color: white;
