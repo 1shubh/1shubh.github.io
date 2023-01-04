@@ -9,7 +9,7 @@ export const Skills = () => {
   return (<>
   <video width={"100%"} style={{position:"relative"}} autoPlay loop muted>
       <source src={sample} type='video/mp4' /></video>
-    <Box position={"absolute"} margin-top={{lg:"100px",md:"100px",sm:"100px"}} w="80%" top="45%" left={"10%"} border="0px solid white">
+    <Box position={"absolute"} margin-top={{lg:"100px",md:"100px",sm:"100px"}} w="80%" top="46%" left={"10%"} border="0px solid white">
          <Heading color={"white"} textAlign={"center"} size={{lg:"3xl",md:"2xl",sm:"xl"}}>Here's what I do</Heading>
          <Box w={"90%"} border="0px solid white" margin={"auto"} marginTop="60px" display={{lg:"flex",md:"grid",sm:"grid"}} justifyContent="center">
             <Box border={"0px solid red"} w={{lg:"50%",md:"100%",sm:"100%"}}>

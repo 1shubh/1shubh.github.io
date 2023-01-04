@@ -2,18 +2,17 @@
     border: 0px solid white;
     display: flex;
     margin-top: 0px;
-    width: 80%;
+ 
     margin: auto;
     /* margin-top:56px; */
     justify-content: space-around;
+    /* align-items: center; */
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 3s;
     -moz-animation: fadeIn 3s;
     -o-animation: fadeIn 3s;
     -ms-animation: fadeIn 2s;
     position: absolute;
-    top: 8%;
-    left: 10%;
 }
 @keyframes fadeIn {
     0% { opacity: 0; }
@@ -57,10 +56,7 @@
 .contactLogoGit:hover{
     box-shadow: rgb(128,216,255) 0px 3px 8px;
 }
-#avatar{
-    width: 30%;
-    margin-top: 50px;
-}
+
 #avatar>img{
     border-radius: 55%;
     border: 0px solid white;
