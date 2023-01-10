@@ -36,7 +36,7 @@ export const Navbar = () => {
            />
 
          </Box>
-        <Box id='menu' 
+        <Box id='nav_menu' 
          width={{base:"100%",md:"50%",lg:"36%"}}>
             <Text fontSize={{base:"10px",md:"16px",lg:"18"}}>About</Text>
             <Text fontSize={{base:"10px",md:"16px",lg:"18"}}>Skills</Text>

@@ -24,14 +24,14 @@
 #logo{
     border: 0px solid white;
 }
-#menu{
+#nav_menu{
     border: 0px solid white;
     display: flex;
     justify-content: space-between;
     font-family:sans-serif;
     align-items: center;
 }
-#menu > p {
+#nav_menu > p {
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 10px;
@@ -40,7 +40,7 @@
     font-weight:100;
     letter-spacing: 1px;
 }
-#menu > p:hover{
+#nav_menu > p:hover{
     border: 0px solid white;
     cursor: pointer;
     /* background-color: #ffc400;
