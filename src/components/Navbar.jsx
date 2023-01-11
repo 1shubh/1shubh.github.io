@@ -1,10 +1,11 @@
 import { Box,Image,Text } from '@chakra-ui/react';
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 import style from "../styles/navbar.css"
 
 export const Navbar = () => {
   const [navbar,setNavbar] = useState(false);
-
+  const navigate = useNavigate()
   const ChangeNavbar = () =>{
       if(window.scrollY >= 80){
         setNavbar(true)
@@ -38,9 +39,9 @@ export const Navbar = () => {
          </Box>
         <Box id='nav_menu' 
          width={{base:"100%",md:"50%",lg:"36%"}}>
-            <Text fontSize={{base:"10px",md:"16px",lg:"18"}}>About</Text>
-            <Text fontSize={{base:"10px",md:"16px",lg:"18"}}>Skills</Text>
-            <Text fontSize={{base:"10px",md:"16px",lg:"18"}}>Projects</Text>
+            <Text fontSize={{base:"10px",md:"16px",lg:"18"}} onClick={()=>navigate("/")}>About</Text>
+            <Text fontSize={{base:"10px",md:"16px",lg:"18"}} onClick={()=>navigate("/skills")}>Skills</Text>
+            <Text fontSize={{base:"10px",md:"16px",lg:"18"}} onClick={()=>navigate("/projects")}>Projects</Text>
             <Text fontSize={{base:"10px",md:"16px",lg:"18"}}>Contact & Resume</Text>
         </Box>
     </Box>

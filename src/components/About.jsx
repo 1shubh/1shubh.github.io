@@ -7,7 +7,7 @@ export const About = () => {
   return (<>
    <video width={"100%"} style={{position:"relative"}} autoPlay loop muted>
       <source src={sample} type='video/mp4' /></video>
-    <Box id="about" top={{lg:"8%",md:"4%",base:"2%"}} w={{lg:"80%",md:"80%",base:"95%"}} left={{lg:"10%",md:"10%",base:"2%"}} alignItems={{md:"center",base:"center"}}>
+    <Box id="about" top={{lg:"5%",md:"4%",base:"2%"}} w={{lg:"80%",md:"80%",base:"95%"}} left={{lg:"10%",md:"10%",base:"2%"}} alignItems={{md:"center",base:"center"}}>
       <Box className='about' display={"grid"} gap={{lg:"20px",md:"15px",sm:"5px"}}>
         <Heading display={"flex"} color={"white"} size={{base:"sm",md:"xl",lg:"4xl"}}>Hello <img style={{marginLeft:"10px"}} width={"10%"} src="https://user-images.githubusercontent.com/39955420/147578264-bae0526c-028a-49d2-8af8-d08bb4edbd2a.gif" alt="emoji"/></Heading>
     
