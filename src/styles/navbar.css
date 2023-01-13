@@ -8,9 +8,9 @@
     /* box-shadow: rgba(255, 255, 255, 0.386) 0px 3px 8px; */
 }
 .active {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.767);
+    border-bottom: 1px solid #ffc400;
     background-color: black;
-    box-shadow: rgba(255, 255, 255, 0.386) 0px 3px 8px;
+    box-shadow: #ffc4008d 0px 3px 8px;
 }
 #navbar{
     color: white;
