@@ -12,9 +12,9 @@ export const Skills = () => {
         margin={"auto"}
         margin-top={{ lg: "100px", md: "100px", sm: "100px" }}
         w="80%"
-        left={"10%"}
         border="0px solid orange"
         id="skills"
+        marginTop={"50px"}
       >
         <Heading
           color={"white"}

@@ -1,7 +1,10 @@
 import React from "react";
+// import Calendar from 'react-calendar'
+import GitHubCalendar from 'react-github-calendar';
 import { Box, Image, Heading, Text, Button, Grid } from "@chakra-ui/react";
 import { FaGithub } from "react-icons/fa";
 import { SiNetlify } from "react-icons/si";
+import sample from "../video/Glow2.mp4";
 
 const projectsData = [
   {
@@ -42,7 +45,7 @@ export const Projects = () => {
   const url = "https://drive.google.com/uc?export=view&id=";
   return (
     <div style={{ color: "white" }} id="projects">
-      <Heading color={"white"} textAlign="center" size={"2xl"} marginTop="20px">
+      <Heading color={"white"} textAlign="center" size={"2xl"} marginTop="20px" fontSize={{ lg: "4xl", md: "3xl",sm: "xl" }}>
          Build By Me !
       </Heading>
       <Box
@@ -50,7 +53,7 @@ export const Projects = () => {
         gridTemplateColumns={{lg:"repeat(2,1fr)",md:"repeat(1,1fr)",base:"repeat(1,1fr)"}}
         width={{lg:"80%",md:"80%",base:"90%"}}
         margin="auto"
-        marginTop={"50px"}
+        marginTop={{lg:"50px",md:"40px",base:"20px"}}
         gap="20px"
       >
         {projectsData.map((ele)=>(
@@ -106,6 +109,15 @@ export const Projects = () => {
           </Grid>
         </Box>
         ))}
+      </Box>
+      {/* Git Stats */}
+       <Box width={"80%"} margin="auto">
+        <Heading textAlign={"center"} marginTop={"50px"} fontSize={{lg:"4xl",md:"3xl",sm:"xl"}}>My Git Stats</Heading>
+        <GitHubCalendar style={{margin:"auto",marginTop:"20px",padding:"20px",border:"2px solid #ffc400",borderRadius:"10px"}} username="1shubh" />
+        <Box display={{lg:"flex",md:"grid",base:"grid"}} gap={{lg:"0px",md:"20px",base:"20px"}} justifyContent="space-around" border="0px solid white" marginTop={"20px"}>
+           <img src="https://github-readme-stats.vercel.app/api?username=1shubh&show_icons=true&locale=en" alt="1shubh" />
+           <img src="https://github-readme-streak-stats.herokuapp.com/?user=1shubh&" alt="1shubh" />
+        </Box>
       </Box>
     </div>
   );

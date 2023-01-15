@@ -3,6 +3,7 @@ import React, { useState } from "react";
 // import { useNavigate } from "react-router-dom";
 import "../styles/navbar.css";
 import {Link} from "react-scroll"
+import logo from "../images/logo.png"
 
 export const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -35,7 +36,7 @@ export const Navbar = () => {
         >
           <Image
             width={{ base: "40%", md: "70%", lg: "85%" }}
-            src="https://drive.google.com/uc?export=view&id=1m9E_BCvRql29Xr9Goe9LsbjYf3L0pxrr"
+            src={logo}
             alt="logo"
           />
         </Box>

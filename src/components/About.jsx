@@ -1,7 +1,11 @@
 import React from "react";
 import "../styles/About.css";
+import Resume from "../Resume/Shubham_Kumar_Resume.pdf"
 import sample from "../video/Abstract3.mp4";
 import { Heading, Text, Image, Stack, Button, Box } from "@chakra-ui/react";
+import { Tooltip } from "@chakra-ui/react";
+import {FaRegFilePdf} from "react-icons/fa"
+
 
 export const About = () => {
   return (
@@ -15,9 +19,10 @@ export const About = () => {
       >
         <source src={sample} type="video/mp4" />
       </video>
+    
       <Box
         id="about"
-        top={{ lg: "5%", md: "1%", base: "0%" }}
+        top={{ lg: "3%", md: "1%", base: "0%" }}
         w={{ lg: "80%", md: "80%", base: "95%" }}
         left={{ lg: "10%", md: "10%", base: "2%" }}
         alignItems={{ md: "center", base: "center" }}
@@ -31,6 +36,7 @@ export const About = () => {
             display={"flex"}
             color={"white"}
             size={{ base: "sm", md: "xl", lg: "4xl" }}
+            border="0px solid white"
           >
             Hello{" "}
             <img
@@ -39,8 +45,10 @@ export const About = () => {
               src="https://user-images.githubusercontent.com/39955420/147578264-bae0526c-028a-49d2-8af8-d08bb4edbd2a.gif"
               alt="emoji"
             />
-          </Heading>
-
+            {/* <Box border={"0px solid white"}>
+             <Image border={"0px solid blue"} marginTop="20px" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=30&duration=3000&pause=1000&color=ffc400&width=435&lines=I'm+Shubham+Kumar;Full+Stack+Web+Developer;Welcome+to+My+profile" alt="my"/>
+            </Box> */}
+            </Heading>
           <Text
             textAlign={"justify"}
             fontFamily={"sans-serif"}
@@ -58,20 +66,23 @@ export const About = () => {
             width={{ lg: "50%", md: "50%", base: "50%" }}
             gap={{ lg: "10px", md: "10px", base: "2px" }}
             cursor={"pointer"}
-          >
+          > 
+          <Tooltip label="GitHub">
             <Image
               className="contactLogoGit"
               boxSize={{ base: "20px", md: "40px", lg: "60px" }}
               borderRadius={"50%"}
               src="https://drive.google.com/uc?export=view&id=1D8GEGxYhBT2rAB1lvQb4mY0M_juqQnYX"
             />
+            </Tooltip>
+            <Tooltip label="LinkedIn">
             <Image
               className="contactLogolink"
               boxSize={{ base: "20px", md: "40px", lg: "60px" }}
               borderRadius={"50%"}
               backgroundColor={"transparent"}
               src="https://drive.google.com/uc?export=view&id=1M50PI9GrYjJz8KrNVf-HG4i2KsSFiRd5"
-            />
+            /></Tooltip>
             <Image
               className="contactLogoMail"
               boxSize={{ base: "20px", md: "40px", lg: "60px" }}
@@ -80,12 +91,14 @@ export const About = () => {
               src="https://drive.google.com/uc?export=view&id=1LYOgV4Mmt7ZPSKJuc0YkW039M4uwDd-P"
             />
           </Stack>
-          <a href="#contact"><Button
+          <a href={Resume} download><Button
             w={{ lg: "28%", md: "28%", base: "28%" }}
-            h={{ base: "15px", lg: "35px", md:"30px" }}
-            fontSize={{ lg: "15px", md: "14px", base: "5px" }}
+            h={{ base: "15px", lg: "50px", md:"30px" }}
+            fontSize={{ lg: "20px", md: "14px", base: "5px" }}
+            rightIcon={<FaRegFilePdf/>}
+            backgroundColor={"#ffc400"}
           >
-            Contact Me
+            Resume
           </Button></a>
         </Box>
         <Box
