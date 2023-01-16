@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/About.css";
+import myImage from "../images/new.png"
 import Resume from "../Resume/Shubham_Kumar_Resume.pdf"
 import sample from "../video/Abstract3.mp4";
 import { Heading, Text, Image, Stack, Button, Box } from "@chakra-ui/react";
@@ -11,11 +12,11 @@ export const About = () => {
   return (
     <>
       <video
-        width={"100%"}
         style={{ position: "relative" }}
         autoPlay
         loop
         muted
+        id="homeVideo"
       >
         <source src={sample} type="video/mp4" />
       </video>
@@ -67,6 +68,7 @@ export const About = () => {
             gap={{ lg: "10px", md: "10px", base: "2px" }}
             cursor={"pointer"}
           > 
+          <a href="https://github.com/1shubh">
           <Tooltip label="GitHub">
             <Image
               className="contactLogoGit"
@@ -74,7 +76,8 @@ export const About = () => {
               borderRadius={"50%"}
               src="https://drive.google.com/uc?export=view&id=1D8GEGxYhBT2rAB1lvQb4mY0M_juqQnYX"
             />
-            </Tooltip>
+            </Tooltip></a>
+            <a href="https://www.linkedin.com/in/shubham-kumar-b617a4171/">
             <Tooltip label="LinkedIn">
             <Image
               className="contactLogolink"
@@ -82,14 +85,16 @@ export const About = () => {
               borderRadius={"50%"}
               backgroundColor={"transparent"}
               src="https://drive.google.com/uc?export=view&id=1M50PI9GrYjJz8KrNVf-HG4i2KsSFiRd5"
-            /></Tooltip>
+            /></Tooltip></a>
+            <a href="mailto:shubhkmr1806@gmail.com">
+            <Tooltip label="Email">
             <Image
               className="contactLogoMail"
               boxSize={{ base: "20px", md: "40px", lg: "60px" }}
               borderRadius={"50%"}
               backgroundColor={"transparent"}
               src="https://drive.google.com/uc?export=view&id=1LYOgV4Mmt7ZPSKJuc0YkW039M4uwDd-P"
-            />
+            /></Tooltip></a>
           </Stack>
           <a href={Resume} download><Button
             w={{ lg: "28%", md: "28%", base: "28%" }}
