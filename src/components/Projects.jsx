@@ -4,7 +4,7 @@ import GitHubCalendar from 'react-github-calendar';
 import { Box, Image, Heading, Text, Button, Grid } from "@chakra-ui/react";
 import { FaGithub } from "react-icons/fa";
 import { SiNetlify } from "react-icons/si";
-import sample from "../video/Glow2.mp4";
+// import sample from "../video/Glow2.mp4";
 
 const projectsData = [
   {
@@ -26,7 +26,7 @@ const projectsData = [
   {
     imgUrl : "1jipT1ryZT2fKWwY9Zz-ArIsTYgNJQ077",
     title : "Lovoda.com",
-    discription : "Lovoda.com is an American based E-commerse website where users can buy jwellery.",
+    discription : "Lovoda.com is an American based E-commerce website where users can buy jwellery.",
     techStack : "HTML CSS JavaScript",
     github : "https://github.com/1shubh/cynical-party-1080",
     deployed : "https://sage-rabanadas-8b10c9.netlify.app/"

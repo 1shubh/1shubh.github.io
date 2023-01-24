@@ -21,7 +21,7 @@ export const Skills = () => {
           textAlign={"center"}
           size={{ lg: "2xl", md: "xl", sm: "xl" }}
         >
-          My Skills
+          Technical Skills
         </Heading>
         <Box
           w={"100%"}

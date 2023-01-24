@@ -54,7 +54,7 @@ export const Navbar = () => {
             <Link to="projects" smooth={true} offset={-100} duration={400}> Projects</Link>
             </Text>
             <Text fontSize={{ base: "10px", md: "16px", lg: "18" }}>
-            <Link to="contact"  smooth={true} offset={-100} duration={400}>Contact & Resume </Link>
+            <Link to="contact"  smooth={true} offset={-100} duration={400}>Contact</Link>
           </Text>
         </Box>
       </Box>
