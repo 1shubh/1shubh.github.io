@@ -8,6 +8,14 @@ import { SiNetlify } from "react-icons/si";
 
 const projectsData = [
   {
+    imgUrl : "1oQaPszD_-CbwA35mHIe3V0ZN1y80pTmx",
+    title : "Wallmart.com",
+    discription : "Wallmart.com is an American based ecommerce website where a user can buy products from multiple categories like fashion, electronics etc.",
+    techStack : " ReactJs, Redux, CSS, Chakra UI, REST",
+    github : "https://github.com/1shubh/wallmart",
+    deployed : "https://zingy-muffin-f72b2f.netlify.app/"
+  },
+  {
     imgUrl : "1q180PKNykuZ44HTR2D9o9G7h_Rye40HT",
     title : "Travelocity.com",
     discription : "Travelocity.com is an online travel agency owned by Expedia Group.Where a user can book Hotels.",
@@ -39,6 +47,7 @@ const projectsData = [
     github : "https://github.com/1shubh/Youtube.com-clone-",
     deployed : "https://dazzling-kitten-99ca71.netlify.app/"
   },
+  
 ]
 
 export const Projects = () => {

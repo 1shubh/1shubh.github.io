@@ -1,6 +1,6 @@
 import React from 'react'
 import sample from "../video/Glow2.mp4"
-import { Heading, Text, Image, Stack, Button, Box } from "@chakra-ui/react";
+import { Heading, Text, Image, Stack, Box } from "@chakra-ui/react";
 import { Tooltip } from "@chakra-ui/react";
 
 export const Contact = () => {
