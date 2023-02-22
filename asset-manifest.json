@@ -1,20 +1,29 @@
 {
   "files": {
-    "main.css": "./static/css/main.08223383.css",
-    "main.js": "./static/js/main.69f8f128.js",
+    "main.css": "./static/css/main.940aba31.css",
+    "main.js": "./static/js/main.331020bc.js",
     "static/js/787.0a4fd98f.chunk.js": "./static/js/787.0a4fd98f.chunk.js",
     "static/media/Glow2.mp4": "./static/media/Glow2.a654d4b7ef54dc9cb8b7.mp4",
+    "static/media/travelocity.mp4": "./static/media/travelocity.4fd3f9890f66bd32cb12.mp4",
+    "static/media/lovoda.mp4": "./static/media/lovoda.6bf95050206e726c036b.mp4",
+    "static/media/bookit.mp4": "./static/media/bookit.d08dd72c809e1a793005.mp4",
     "static/media/Abstract3.mp4": "./static/media/Abstract3.b7525db6882d0eac53ec.mp4",
-    "static/media/new.png": "./static/media/new.1502d29688c181870ddb.png",
+    "static/media/wallmart.mp4": "./static/media/wallmart.da461be4f8f146d3f58a.mp4",
     "static/media/Shubham_Kumar_Resume.pdf": "./static/media/Shubham_Kumar_Resume.d80f8e74382a8007a151.pdf",
+    "static/media/chakra.png": "./static/media/chakra.e4cb472ccaabf22affba.png",
     "static/media/logo.png": "./static/media/logo.feee240b83c2bbc00ff0.png",
+    "static/media/react.png": "./static/media/react.e71f4c5b0c4306d65355.png",
+    "static/media/css.png": "./static/media/css.e31e30fbd381c3f058df.png",
+    "static/media/html.png": "./static/media/html.5139eb66b02855a1c137.png",
+    "static/media/js.png": "./static/media/js.3338fa38e2ad24931071.png",
+    "static/media/redux.png": "./static/media/redux.b3b939c66aecf7d53967.png",
     "index.html": "./index.html",
-    "main.08223383.css.map": "./static/css/main.08223383.css.map",
-    "main.69f8f128.js.map": "./static/js/main.69f8f128.js.map",
+    "main.940aba31.css.map": "./static/css/main.940aba31.css.map",
+    "main.331020bc.js.map": "./static/js/main.331020bc.js.map",
     "787.0a4fd98f.chunk.js.map": "./static/js/787.0a4fd98f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08223383.css",
-    "static/js/main.69f8f128.js"
+    "static/css/main.940aba31.css",
+    "static/js/main.331020bc.js"
   ]
 }
