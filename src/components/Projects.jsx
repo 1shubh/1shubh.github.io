@@ -11,6 +11,7 @@ import react from "../images/react.png"
 import js from "../images/js.png"
 import redux from "../images/redux.png"
 import chakra from "../images/chakra.png"
+import rest from "../images/rest.png"
 import { Tooltip } from "@chakra-ui/react"
 import { Box, Image, Heading, Text, Button, Grid } from "@chakra-ui/react";
 import { FaGithub } from "react-icons/fa";
@@ -22,7 +23,7 @@ const projectsData = [
     imgUrl : wallmart,
     title : "Wallmart.com",
     discription : "Wallmart.com is an American based ecommerce website where a user can buy products from multiple categories like fashion, electronics etc.",
-    techStack : [{tech:react,tooltip:"ReactJS"},{tech:css,tooltip:"CSS"},{tech:redux,tooltip:"Redux"},{tech:chakra,tooltip:"Chakra UI"}],
+    techStack : [{tech:react,tooltip:"ReactJS"},{tech:css,tooltip:"CSS"},{tech:redux,tooltip:"Redux"},{tech:chakra,tooltip:"Chakra UI"},{tech:rest,tooltip:"REST API"}],
     github : "https://github.com/1shubh/wallmart",
     deployed : "https://zingy-muffin-f72b2f.netlify.app/"
   },
@@ -30,7 +31,7 @@ const projectsData = [
     imgUrl :travelocity,
     title : "Travelocity.com",
     discription : "Travelocity.com is an online travel agency owned by Expedia Group.Where a user can book Hotels.",
-    techStack :[{tech:react,tooltip:"ReactJS"},{tech:css,tooltip:"CSS"},{tech:chakra,tooltip:"Chakra UI"},],
+    techStack :[{tech:react,tooltip:"ReactJS"},{tech:css,tooltip:"CSS"},{tech:chakra,tooltip:"Chakra UI"},{tech:rest,tooltip:"REST API"}],
     github : "https://github.com/1shubh/-defiant-wall-1211",
     deployed : "https://melodic-dasik-b53159.netlify.app/"
   },
@@ -38,7 +39,7 @@ const projectsData = [
     imgUrl : bookit,
     title : "Booking.com",
     discription : "Booking.com is a Dutch online travel agency for lodging reservations & other travel products, and a subsidiary of Booking Holding.",
-    techStack : [{tech:html,tooltip:"HTML"},{tech:css,tooltip:"CSS"},{tech:js,tooltip:"JavaScript"}],
+    techStack : [{tech:html,tooltip:"HTML"},{tech:css,tooltip:"CSS"},{tech:js,tooltip:"JavaScript"},{tech:rest,tooltip:"REST API"}],
     github : "https://github.com/1shubh/Bookit.com",
     deployed : "https://regal-youtiao-ed791b.netlify.app/"
   },
