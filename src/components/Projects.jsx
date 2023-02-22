@@ -22,7 +22,7 @@ const projectsData = [
     imgUrl : wallmart,
     title : "Wallmart.com",
     discription : "Wallmart.com is an American based ecommerce website where a user can buy products from multiple categories like fashion, electronics etc.",
-    techStack : [{tech:html,tooltip:"HTML"},{tech:css,tooltip:"CSS"},{tech:react,tooltip:"ReactJS"},{tech:redux,tooltip:"Redux"}],
+    techStack : [{tech:react,tooltip:"ReactJS"},{tech:css,tooltip:"CSS"},{tech:redux,tooltip:"Redux"},{tech:chakra,tooltip:"Chakra UI"}],
     github : "https://github.com/1shubh/wallmart",
     deployed : "https://zingy-muffin-f72b2f.netlify.app/"
   },
