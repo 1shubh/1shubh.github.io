@@ -1,6 +1,17 @@
 import React from "react";
 // import Calendar from 'react-calendar'
+import wallmart from "../video/wallmart.mp4"
+import travelocity from "../video/travelocity.mp4"
+import bookit from "../video/bookit.mp4"
+import lovoda from "../video/lovoda.mp4"
 import GitHubCalendar from 'react-github-calendar';
+import html from "../images/html.png"
+import css from "../images/css.png"
+import react from "../images/react.png"
+import js from "../images/js.png"
+import redux from "../images/redux.png"
+import chakra from "../images/chakra.png"
+import { Tooltip } from "@chakra-ui/react"
 import { Box, Image, Heading, Text, Button, Grid } from "@chakra-ui/react";
 import { FaGithub } from "react-icons/fa";
 import { SiNetlify } from "react-icons/si";
@@ -8,50 +19,41 @@ import { SiNetlify } from "react-icons/si";
 
 const projectsData = [
   {
-    imgUrl : "1oQaPszD_-CbwA35mHIe3V0ZN1y80pTmx",
+    imgUrl : wallmart,
     title : "Wallmart.com",
     discription : "Wallmart.com is an American based ecommerce website where a user can buy products from multiple categories like fashion, electronics etc.",
-    techStack : " ReactJs, Redux, CSS, Chakra UI, REST",
+    techStack : [{tech:html,tooltip:"HTML"},{tech:css,tooltip:"CSS"},{tech:react,tooltip:"ReactJS"},{tech:redux,tooltip:"Redux"}],
     github : "https://github.com/1shubh/wallmart",
     deployed : "https://zingy-muffin-f72b2f.netlify.app/"
   },
   {
-    imgUrl : "1q180PKNykuZ44HTR2D9o9G7h_Rye40HT",
+    imgUrl :travelocity,
     title : "Travelocity.com",
     discription : "Travelocity.com is an online travel agency owned by Expedia Group.Where a user can book Hotels.",
-    techStack : " ReactJs, Chakra UI",
+    techStack :[{tech:react,tooltip:"ReactJS"},{tech:css,tooltip:"CSS"},{tech:chakra,tooltip:"Chakra UI"},],
     github : "https://github.com/1shubh/-defiant-wall-1211",
     deployed : "https://melodic-dasik-b53159.netlify.app/"
   },
   {
-    imgUrl : "1ZjKgDg4qsesXVxJktjJlJ64qoh2bnN-9",
+    imgUrl : bookit,
     title : "Booking.com",
     discription : "Booking.com is a Dutch online travel agency for lodging reservations & other travel products, and a subsidiary of Booking Holding.",
-    techStack : " HTML, CSS, JavaScript",
+    techStack : [{tech:html,tooltip:"HTML"},{tech:css,tooltip:"CSS"},{tech:js,tooltip:"JavaScript"}],
     github : "https://github.com/1shubh/Bookit.com",
     deployed : "https://regal-youtiao-ed791b.netlify.app/"
   },
   {
-    imgUrl : "1jipT1ryZT2fKWwY9Zz-ArIsTYgNJQ077",
+    imgUrl : lovoda,
     title : "Lovoda.com",
     discription : "Lovoda.com is an American based E-commerce website where users can buy jwellery.",
-    techStack : "HTML CSS JavaScript",
+    techStack : [{tech:html,tooltip:"HTML"},{tech:css,tooltip:"CSS"},{tech:js,tooltip:"JavaScript"}],
     github : "https://github.com/1shubh/cynical-party-1080",
     deployed : "https://sage-rabanadas-8b10c9.netlify.app/"
   },
-  {
-    imgUrl : "1tX-s0lUhUkYX-KyCdcCGEbmeuD9pnEYb",
-    title : "Youtube.com",
-    discription : "Youtube.com is a video streaming website where a user can search and watch videos",
-    techStack : "HTML CSS JavaScript Api",
-    github : "https://github.com/1shubh/Youtube.com-clone-",
-    deployed : "https://dazzling-kitten-99ca71.netlify.app/"
-  },
-  
 ]
 
 export const Projects = () => {
-  const url = "https://drive.google.com/uc?export=view&id=";
+  // const url = "https://drive.google.com/uc?export=view&id=";
   return (
     <div style={{ color: "white" }} id="projects">
       <Heading color={"white"} textAlign="center" size={"2xl"} marginTop="20px" fontSize={{ lg: "4xl", md: "3xl",sm: "xl" }}>
@@ -68,12 +70,20 @@ export const Projects = () => {
         {projectsData.map((ele)=>(
           <Box border={"2px solid #ffc400"} borderRadius="10px">
           <Box w={"100%"}>
-            <Image
+            {/* <Image
               w={"100%"}
               borderTopRadius="7px"
               src={`${url}${ele.imgUrl}`}
               alt="img"
-            />
+            /> */}
+            <video
+                    style={{borderTopLeftRadius:"10px",borderTopRightRadius:"10px" }}
+                    autoPlay
+                    loop
+                    muted
+                  >
+             <source src={ele.imgUrl} type="video/mp4" />
+           </video>
           </Box>
           <Grid
             border="0px solid #ffc400"
@@ -88,10 +98,18 @@ export const Projects = () => {
             <Text fontFamily={"sans-serif"} fontSize={{base:"14px",lg:"md",md:"17px"}}>
              {ele.discription}
             </Text>
-            <Text fontSize={{base:"14px",lg:"md",md:"17px"}}>
-              <span style={{ color: "#ffc400", fontSize: "18px" }}>
+            <Box>
+              <Text style={{ color: "#ffc400", fontSize: "18px" }} fontSize={{base:"14px",lg:"md",md:"17px"}}>
                 Tech Stack :
-              </span> {ele.techStack}</Text>
+              </Text>
+              <Box display={"flex"} w={"60%"} border="0px solid white">
+              {ele.techStack.map((image) => (
+                <Tooltip label={image.tooltip}>
+                    <Image border={"0px solid blue"} boxSize="20%" cursor={"pointer"} marginRight="10px" src={image.tech}/>
+               </Tooltip>
+              ))}
+              </Box>
+            </Box>
             <Box
               border="0px solid red"
               w={{lg:"60%",md:"42%",base:"80%"}}

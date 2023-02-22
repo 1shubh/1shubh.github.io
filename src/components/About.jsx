@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/About.css";
-import myImage from "../images/new.png"
+// import myImage from "../images/new.png"
 import Resume from "../Resume/Shubham_Kumar_Resume.pdf"
 import sample from "../video/Abstract3.mp4";
 import { Heading, Text, Image, Stack, Button, Box } from "@chakra-ui/react";

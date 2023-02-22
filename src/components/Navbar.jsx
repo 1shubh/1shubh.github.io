@@ -4,9 +4,15 @@ import React, { useState } from "react";
 import "../styles/navbar.css";
 import {Link} from "react-scroll"
 import logo from "../images/logo.png"
+import {FaBars} from "react-icons/fa"
 
 export const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
+  const [showNavbar, setShowNavbar] = useState(false)
+
+  const handleShowNavbar = () => {
+    setShowNavbar(!showNavbar)
+  }
   // const navigate = useNavigate();
   const ChangeNavbar = () => {
     if (window.scrollY >= 80) {
@@ -17,6 +23,7 @@ export const Navbar = () => {
   };
 
   window.addEventListener("scroll", ChangeNavbar);
+
   return (
     <Box className={navbar ? "nav active" : "nav"}>
       <Box
@@ -40,7 +47,7 @@ export const Navbar = () => {
             alt="logo"
           />
         </Box>
-        <Box id="nav_menu" width={{ base: "100%", md: "70%", lg: "40%" }}>
+        <Box id="nav_menu"  width={{ base: "100%", md: "70%", lg: "40%" }}>
             <Text fontSize={{ base: "10px", md: "16px", lg: "18" }}>
                 <Link  to="/"  smooth={true} offset={10} duration={400}>Home</Link>
             </Text>
@@ -56,6 +63,9 @@ export const Navbar = () => {
             <Text fontSize={{ base: "10px", md: "16px", lg: "18" }}>
             <Link to="contact"  smooth={true} offset={-100} duration={400}>Contact</Link>
           </Text>
+        </Box>
+        <Box id="bar" onClick={handleShowNavbar}>
+            <FaBars/>
         </Box>
       </Box>
     </Box>
