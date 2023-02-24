@@ -1,9 +1,9 @@
 import React from "react";
 // import Calendar from 'react-calendar'
-import wallmart from "../video/wallmart.mp4"
-import travelocity from "../video/travelocity.mp4"
-import bookit from "../video/bookit.mp4"
-import lovoda from "../video/lovoda.mp4"
+import wallmart from "../video/wallmart.gif"
+import travelocity from "../video/travelocity.gif"
+import bookit from "../video/bookit.gif"
+import lovoda from "../video/lovodaGif.gif"
 import GitHubCalendar from 'react-github-calendar';
 import html from "../images/html.png"
 import css from "../images/css.png"
@@ -71,20 +71,20 @@ export const Projects = () => {
         {projectsData.map((ele)=>(
           <Box border={"2px solid #ffc400"} borderRadius="10px">
           <Box w={"100%"}>
-            {/* <Image
+            <Image
               w={"100%"}
               borderTopRadius="7px"
-              src={`${url}${ele.imgUrl}`}
+              src={ele.imgUrl}
               alt="img"
-            /> */}
-            <video
+            />
+            {/* <video
                     style={{borderTopLeftRadius:"10px",borderTopRightRadius:"10px" }}
                     autoPlay
                     loop
                     muted
                   >
              <source src={ele.imgUrl} type="video/mp4" />
-           </video>
+           </video> */}
           </Box>
           <Grid
             border="0px solid #ffc400"
