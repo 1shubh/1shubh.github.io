@@ -1,9 +1,8 @@
 import React from "react";
-// import Calendar from 'react-calendar'
-import wallmart from "../video/wallmart.gif"
-import travelocity from "../video/travelocity.gif"
-import bookit from "../video/bookit.gif"
-import lovoda from "../video/lovodaGif.gif"
+import wallmart from "../video/wallmart.png"
+import travelocity from "../video/travelocity.png"
+import bookit from "../video/bookit.png"
+import lovoda from "../video/lovoda.png"
 import GitHubCalendar from 'react-github-calendar';
 import html from "../images/html.png"
 import css from "../images/css.png"
@@ -16,7 +15,7 @@ import { Tooltip } from "@chakra-ui/react"
 import { Box, Image, Heading, Text, Button, Grid } from "@chakra-ui/react";
 import { FaGithub } from "react-icons/fa";
 import { SiNetlify } from "react-icons/si";
-// import sample from "../video/Glow2.mp4";
+import Zoom from 'react-reveal/Zoom';
 
 const projectsData = [
   {
@@ -53,8 +52,9 @@ const projectsData = [
   },
 ]
 
+
 export const Projects = () => {
-  // const url = "https://drive.google.com/uc?export=view&id=";
+
   return (
     <div style={{ color: "white" }} id="projects">
       <Heading color={"white"} textAlign="center" size={"2xl"} marginTop="20px" fontSize={{ lg: "4xl", md: "3xl",sm: "xl" }}>
@@ -69,6 +69,7 @@ export const Projects = () => {
         gap="20px"
       >
         {projectsData.map((ele)=>(
+         <Zoom>
           <Box border={"2px solid #ffc400"} borderRadius="10px">
           <Box w={"100%"}>
             <Image
@@ -136,6 +137,7 @@ export const Projects = () => {
             </Box>
           </Grid>
         </Box>
+        </Zoom>
         ))}
       </Box>
       {/* Git Stats */}
