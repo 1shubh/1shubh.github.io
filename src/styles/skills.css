@@ -1,0 +1,16 @@
+#logoImages{
+    overflow:hidden;
+    border-radius: 10px;
+}
+#skillslogo{
+    border: 0px solid blue;
+    position: relative;
+    display: grid;
+    gap: 10px;
+    transform-origin: 50% 65%;
+    transition: transform 0.2s, filter 0.5s ease-in-out;
+}
+#skillslogo:hover{
+    transform: scale(1.2);
+    /* position:relative; */
+}
