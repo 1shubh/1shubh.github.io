@@ -1,0 +1,68 @@
+#home{
+    border: 0px solid white;
+    display: flex;
+    margin-top: 0px;
+ 
+    margin: auto;
+    /* margin-top:56px; */
+    justify-content: space-around;
+    /* align-items: center; */
+    /* animation: fadeIn 5s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 2s; */
+    position: absolute;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+.about{
+    width: 60%;
+    border: 0px solid white;
+    margin-right: 25px;
+    margin-top: 50px;
+}
+.name{
+    color: #ffc400;
+}
+.contactLogoMail:hover{
+    box-shadow: rgb(241,99,90) 0px 3px 8px;
+}
+.contactLogolink:hover{
+    box-shadow: rgb(0,127,188) 0px 3px 8px;
+}
+.contactLogoGit:hover{
+    box-shadow: rgb(128,216,255) 0px 3px 8px;
+}
+
+#avatar>img{
+    border: 0px solid white;
+    width: 100%;
+    /* filter: grayscale(100%); */
+    border-radius: 55%;
+}
+.homevideo{
+    width: 100%;
+}

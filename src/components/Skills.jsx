@@ -106,7 +106,7 @@ export const Skills = () => {
           textAlign={"center"}
           size={{ lg: "2xl", md: "xl", base: "xl" }}
         >
-          Technical Skills
+          My Skills
         </Heading>
         <Box
           w={"100%"}
@@ -151,7 +151,7 @@ export const Skills = () => {
                    
                    display={"block"}
                    margin="auto"
-                   boxSize={{ lg: "100px", md: "60px", base: "60px" }}
+                   boxSize={{ lg: "100px", md: "90px", base: "60px" }}
                    src={logo.logo}
                   />
                   <Text color={"#ffc400"}>{logo.tooltip}</Text>
@@ -186,30 +186,31 @@ export const Skills = () => {
               w={{ lg: "100%", md: "100%",base:"100%" }}
               border={"0px solid #ffc400"}
               display="grid"
-              gridTemplateColumns={{lg:"repeat(5,1fr)",md:"repeat(4,1fr)",base:"repeat(2,1fr)"}}
+              gridTemplateColumns={{lg:"repeat(5,1fr)",md:"repeat(5,1fr)",base:"repeat(2,1fr)"}}
               gap="20px"
               padding={"10px"}
               cursor={"pointer"}
             >
               {
                 otherTools.map((logo)=>(
+                  <LightSpeed left>
                   <Box 
-                  border={"1px solid #ffc400"}
+                  border={"0px solid #ffc400"}
                   paddingTop="20px"
                   paddingBottom={"20px"}
                   id="logoImages"
                   >
                   <div id="skillslogo">
                   <Image
-                   
                    display={"block"}
                    margin="auto"
-                   boxSize={{ lg: "100px", md: "60px", base: "60px" }}
+                   boxSize={{ lg: "100px", md: "90px", base: "60px" }}
                    src={logo.logo}
                   />
                   <Text color={"#ffc400"}>{logo.tooltip}</Text>
                   </div>
                   </Box>
+                  </LightSpeed>
                 ))
               }
             </Box>

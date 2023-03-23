@@ -1,0 +1,12 @@
+#loaderImage{
+    display: block;
+    margin: auto;
+    align-items: center;
+    border: 0px solid white;
+    width: 40%;
+}
+@media screen and (max-width:820px) {
+    #loaderImage{
+        width: 80%;
+    }
+}
