@@ -10,7 +10,7 @@ const useReady = (delay) => {
     return () => {
       clearTimeout(id);
     };
-  }, []);
+  },);
   return { ready };
 };
 export default useReady;

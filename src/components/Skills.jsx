@@ -1,6 +1,6 @@
 import React from "react";
-import { Box, Heading, Image, Text, Stack, Flex } from "@chakra-ui/react";
-import { Tooltip } from "@chakra-ui/react";
+import { Box, Heading, Image, Text,} from "@chakra-ui/react";
+
 import mongologo from "../images/mongo.png"
 import firebaselogo from "../images/firebase.png"
 import typescriptlogo from "../images/typescript.png"
@@ -10,9 +10,7 @@ import nextJslogo from "../images/nextjs.png"
 import vsCodeLogo from "../images/vscode.png"
 import npmlogo from "../images/npm.png"
 import "../styles/skills.css"
-import { motion } from "framer-motion";
-// import Zoom from 'react-reveal/Zoom';
-import RubberBand from 'react-reveal/RubberBand';
+
 import LightSpeed from 'react-reveal/LightSpeed';
 
 // import sample from "../video/Glow2.mp4";
