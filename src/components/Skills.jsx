@@ -98,11 +98,12 @@ export const Skills = () => {
         border="0px solid orange"
         id="skills"
         marginTop={"50px"}
+        letterSpacing={"4px"}
       >
         <Heading
           color={"white"}
           textAlign={"center"}
-          size={{ lg: "2xl", md: "xl", base: "xl" }}
+          size={{ lg: "xl", md: "xl", base: "xl" }}
         >
           My Skills
         </Heading>

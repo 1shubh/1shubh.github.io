@@ -13,11 +13,13 @@ import Reveal from 'react-reveal/Reveal';
 export const About = () => {
   return (
     <div id="about">
-     <Box>
+     <Box
+      letterSpacing={"4px"}
+     >
       <Heading
       textAlign={"center"} 
       color={"white"}  
-      size={{ lg: "2xl", md: "xl", base: "xl" }}
+      size={{ lg: "xl", md: "xl", base: "xl" }}
       >About Me</Heading>
      </Box>
      <Box

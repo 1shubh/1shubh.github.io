@@ -56,8 +56,8 @@ const projectsData = [
 export const Projects = () => {
 
   return (
-    <div style={{ color: "white" }} id="projects">
-      <Heading color={"white"} textAlign="center" size={"2xl"} marginTop="20px" fontSize={{ lg: "4xl", md: "3xl",sm: "xl" }}>
+    <div style={{ color: "white"}} id="projects">
+      <Heading color={"white"} textAlign="center" marginTop="20px" fontSize={{ lg: "4xl", md: "3xl",sm: "xl" }}  letterSpacing={"4px"}>
          Build By Me !
       </Heading>
       <Box
@@ -94,14 +94,14 @@ export const Projects = () => {
             padding={"10px"}
             gap="10px"
           >
-            <Text fontFamily={"sans-serif"} color="#ffc400" fontSize={{lg:"25px",md:"25px",base:"18px"}}>
+            <Text fontFamily={"sans-serif"}  letterSpacing={"4px"} color="#ffc400" fontSize={{lg:"25px",md:"25px",base:"18px"}}>
               {ele.title}
             </Text>
-            <Text fontFamily={"sans-serif"} fontSize={{base:"14px",lg:"md",md:"17px"}}>
+            <Text fontFamily={"sans-serif"} fontSize={{base:"14px",lg:"md",md:"17px"}} >
              {ele.discription}
             </Text>
             <Box>
-              <Text style={{ color: "#ffc400", fontSize: "18px" }} fontSize={{base:"14px",lg:"md",md:"17px"}}>
+              <Text style={{ color: "#ffc400", fontSize: "18px" }} fontSize={{base:"14px",lg:"md",md:"17px"}}  letterSpacing={"3px"}>
                 Tech Stack :
               </Text>
               <Box display={"flex"} w={"60%"} border="0px solid white">

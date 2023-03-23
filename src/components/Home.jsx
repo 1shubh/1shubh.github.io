@@ -60,9 +60,8 @@ export const Home = () => {
             color={"white"}
             fontSize={{ base: "10px", md: "17px", lg: "2xl" }}
           >
-            I'm <span className="name">Shubham Kumar</span>. I am an
-            enthusiastic and self-driven FullStack Web Developer. My skills
-            include HTML, CSS, JavaScript, and ReactJS.
+            I'm <span className="name">Shubham Kumar</span>. An
+            enthusiastic and self-driven FullStack Web Developer with appropriate skills who's always willing to learn and work across technology and domains.
           </Text>
 
           <Stack
