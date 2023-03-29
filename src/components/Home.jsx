@@ -16,7 +16,6 @@ export const Home = () => {
   return (
     <>
       <video
-        style={{ position: "relative" }}
         autoPlay
         loop
         muted
@@ -28,7 +27,7 @@ export const Home = () => {
       <Box
         id="home"
         top={{ lg: "3%", md: "1%", base: "0%" }}
-        w={{ lg: "80%", md: "80%", base: "95%" }}
+        w={{ lg: "80%", md: "80%", base: "100%" }}
         left={{ lg: "10%", md: "10%", base: "2%" }}
         alignItems={{ md: "center", base: "center" }}
       >
@@ -40,13 +39,14 @@ export const Home = () => {
           <Heading
             display={"flex"}
             color={"white"}
-            size={{ base: "sm", md: "xl", lg: "4xl" }}
+            size={{ base: "xl", md: "xl", lg: "4xl" }}
             border="0px solid white"
           >
             Hello{" "}
-            <img
-              style={{ marginLeft: "10px" }}
-              width={"10%"}
+            <Image
+              border={"0px solid white"}
+              marginLeft={"10px"}
+              width={{lg:"10%",md:"10%",base:"15%"}}
               src="https://user-images.githubusercontent.com/39955420/147578264-bae0526c-028a-49d2-8af8-d08bb4edbd2a.gif"
               alt="emoji"
             />
@@ -58,7 +58,7 @@ export const Home = () => {
             textAlign={"justify"}
             fontFamily={"sans-serif"}
             color={"white"}
-            fontSize={{ base: "10px", md: "17px", lg: "2xl" }}
+            fontSize={{ base: "16px", md: "17px", lg: "2xl" }}
           >
             I'm <span className="name">Shubham Kumar</span>. An
             enthusiastic and self-driven FullStack Web Developer with appropriate skills who's always willing to learn and work across technology and domains.
@@ -67,7 +67,7 @@ export const Home = () => {
           <Stack
             direction={"row"}
             border="0px solid white"
-            width={{ lg: "50%", md: "50%", base: "50%" }}
+            width={{ lg: "50%", md: "50%", base: "60%" }}
             gap={{ lg: "10px", md: "10px", base: "2px" }}
             cursor={"pointer"}
           > 
@@ -75,7 +75,7 @@ export const Home = () => {
           <Tooltip label="GitHub">
             <Image
               className="contactLogoGit"
-              boxSize={{ base: "20px", md: "40px", lg: "60px" }}
+              boxSize={{ base: "50px", md: "40px", lg: "60px" }}
               borderRadius={"50%"}
             //   src="https://drive.google.com/uc?export=view&id=1D8GEGxYhBT2rAB1lvQb4mY0M_juqQnYX"
              src={githublogo}
@@ -85,7 +85,7 @@ export const Home = () => {
             <Tooltip label="LinkedIn">
             <Image
               className="contactLogolink"
-              boxSize={{ base: "20px", md: "40px", lg: "60px" }}
+              boxSize={{ base: "50px", md: "40px", lg: "60px" }}
               borderRadius={"50%"}
               backgroundColor={"transparent"}
             //   src="https://drive.google.com/uc?export=view&id=1M50PI9GrYjJz8KrNVf-HG4i2KsSFiRd5"
@@ -95,7 +95,7 @@ export const Home = () => {
             <Tooltip label="Email">
             <Image
               className="contactLogoMail"
-              boxSize={{ base: "20px", md: "40px", lg: "60px" }}
+              boxSize={{ base: "50px", md: "40px", lg: "60px" }}
               borderRadius={"50%"}
               backgroundColor={"transparent"}
             //   src="https://drive.google.com/uc?export=view&id=1LYOgV4Mmt7ZPSKJuc0YkW039M4uwDd-P"
@@ -103,9 +103,9 @@ export const Home = () => {
             /></Tooltip></a>
           </Stack>
           <a href={Resume} download><Button
-            w={{ lg: "28%", md: "28%", base: "28%" }}
-            h={{ base: "15px", lg: "50px", md:"30px" }}
-            fontSize={{ lg: "20px", md: "14px", base: "5px" }}
+            w={{ lg: "28%", md: "28%", base: "40%" }}
+            h={{ base: "45px", lg: "50px", md:"30px" }}
+            fontSize={{ lg: "20px", md: "14px", base: "15px" }}
             rightIcon={<FaRegFilePdf/>}
             backgroundColor={"#ffc400"}
           >
@@ -114,11 +114,10 @@ export const Home = () => {
         </Box>
         <Box
           id="avatar"
-          w={{ base: "20%", md: "25%", lg: "30%" }}
-          marginTop={{ base: "35px" }}
+          w={{ base: "50%", md: "25%", lg: "30%" }}
           backgroundColor="#ffc400"
           borderRadius={"55%"}
-          height="20%"
+          margin="auto"
         >
           <Image
             //  src="https://drive.google.com/uc?export=view&id=1ha1AqeEXSN713mRO0ddgHsLfW0qseY6r"

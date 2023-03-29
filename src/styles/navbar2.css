@@ -137,7 +137,7 @@ body {
   } */
   @media (max-width: 480px) and (min-width : 100px) {
     #navbar{
-        background-color: black;
+        background-color: transparent;
     }
     .container{
         padding: 10px;
