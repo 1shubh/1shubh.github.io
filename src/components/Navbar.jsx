@@ -47,8 +47,8 @@ export const Navbar = () => {
             alt="logo"
           />
         </Box>
-        <Box id="nav_menu"  width={{ base: "100%", md: "70%", lg: "40%" }}>
-            <Text fontSize={{ base: "10px", md: "16px", lg: "18" }}>
+        <Box id="nav_menu"  width={{ base: "100%", md: "70%", lg: "40%" }} >
+            <Text fontSize={{ base: "10px", md: "16px", lg: "18" }} >
                 <Link  to="home"  smooth={true} offset={-100} duration={400}>Home</Link>
             </Text>
             <Text fontSize={{ base: "10px", md: "16px", lg: "18" }}>
