@@ -3,6 +3,7 @@ import "../styles/Home.css";
 // import myImage from "../images/new.png"
 import Resume from "../Resume/Shubham_Kumar_Resume.pdf"
 import sample from "../video/Abstract3.mp4";
+import video2 from "../video/background.mp4"
 import { Heading, Text, Image, Stack, Button, Box } from "@chakra-ui/react";
 import { Tooltip } from "@chakra-ui/react";
 import {FaRegFilePdf} from "react-icons/fa"
@@ -23,7 +24,13 @@ export const Home = () => {
       >
         <source src={sample} type="video/mp4" />
       </video>
-    
+      <video 
+       autoPlay
+       loop
+       muted
+       className="homevideo2">
+           <source src={video2} type="video/mp4" />
+      </video>
       <Box
         id="home"
         top={{ lg: "3%", md: "1%", base: "0%" }}
