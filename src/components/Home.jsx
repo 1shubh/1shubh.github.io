@@ -15,7 +15,7 @@ import githublogo from "../images/github.png"
 
 export const Home = () => {
   return (
-    <>
+    <Box border={"0px solid white"} height="100vh">
       <video
         autoPlay
         loop
@@ -133,6 +133,6 @@ export const Home = () => {
           />
         </Box>
       </Box>
-    </>
+    </Box>
   );
 };
