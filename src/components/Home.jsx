@@ -11,6 +11,7 @@ import pic from "../images/pic.png"
 import linkedinlogo from "../images/linkedin.png"
 import gmaillogo from  "../images/gmail.png"
 import githublogo from "../images/github.png"
+import fiverLogo from "../images/fiverr.png"
 
 
 export const Home = () => {
@@ -68,17 +69,18 @@ export const Home = () => {
             fontSize={{ base: "16px", md: "17px", lg: "2xl" }}
           >
             I'm <span className="name">Shubham Kumar</span>. An
-            enthusiastic and self-driven FullStack Web Developer with appropriate skills who's always willing to learn and work across technology and domains.
+            enthusiastic and self-driven Frontend Web Developer with appropriate skills who's always willing to learn and work across technology and domains.
           </Text>
 
           <Stack
             direction={"row"}
+            align={"center"}
             border="0px solid white"
             width={{ lg: "50%", md: "50%", base: "60%" }}
             gap={{ lg: "10px", md: "10px", base: "2px" }}
             cursor={"pointer"}
           > 
-          <a href="https://github.com/1shubh">
+          <a href="https://github.com/1shubh" target="blank">
           <Tooltip label="GitHub">
             <Image
               className="contactLogoGit"
@@ -88,7 +90,7 @@ export const Home = () => {
              src={githublogo}
             />
             </Tooltip></a>
-            <a href="https://www.linkedin.com/in/shubham-kumar-b617a4171/">
+            <a href="https://www.linkedin.com/in/shubham-kumar-b617a4171/" target="blank">
             <Tooltip label="LinkedIn">
             <Image
               className="contactLogolink"
@@ -98,7 +100,7 @@ export const Home = () => {
             //   src="https://drive.google.com/uc?export=view&id=1M50PI9GrYjJz8KrNVf-HG4i2KsSFiRd5"
             src={linkedinlogo}
             /></Tooltip></a>
-            <a href="mailto:shubhkmr1806@gmail.com">
+            <a href="mailto:shubhkmr1806@gmail.com" target="blank">
             <Tooltip label="Email">
             <Image
               className="contactLogoMail"
@@ -108,8 +110,18 @@ export const Home = () => {
             //   src="https://drive.google.com/uc?export=view&id=1LYOgV4Mmt7ZPSKJuc0YkW039M4uwDd-P"
             src={gmaillogo}
             /></Tooltip></a>
+            <a href="https://www.fiverr.com/shubhkmr18?up_rollout=true" target="blank">
+            <Tooltip label="Fiverr Profile">
+            <Image
+              className="contactLogoMail"
+              boxSize={{ base: "50px", md: "40px", lg: "60px" }}
+              borderRadius={"50%"}
+              backgroundColor={"transparent"}
+            //   src="https://drive.google.com/uc?export=view&id=1LYOgV4Mmt7ZPSKJuc0YkW039M4uwDd-P"
+            src={fiverLogo}
+            /></Tooltip></a>
           </Stack>
-          <a href={Resume} download><Button
+          <a href={Resume} target="blank"><Button
             w={{ lg: "28%", md: "28%", base: "40%" }}
             h={{ base: "45px", lg: "50px", md:"30px" }}
             fontSize={{ lg: "20px", md: "14px", base: "15px" }}
