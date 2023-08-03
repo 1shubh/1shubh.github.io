@@ -38,7 +38,7 @@ const projectsData = [
       { tech: chakra, tooltip: "Chakra UI" },
     ],
     github: "",
-    deployed: "",
+    deployed: "https://antony-waste.web.app/",
   },
   {
     imgUrl: wallmart,
