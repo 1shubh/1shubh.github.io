@@ -9,6 +9,7 @@ import { Home } from './components/Home';
 import useReady from './components/useReady';
 import { Loader } from './components/Loader';
 import { Navbar2 } from './components/Navbar2';
+import { Fiver } from './components/Fiver';
 // import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
          <Navbar2/>
          <Home/>
          <About/>
+         <Fiver/>
          <Skills/>
          <Projects/>
          <Contact/>

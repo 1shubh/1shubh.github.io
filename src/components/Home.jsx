@@ -76,7 +76,7 @@ export const Home = () => {
             direction={"row"}
             align={"center"}
             border="0px solid white"
-            width={{ lg: "50%", md: "50%", base: "60%" }}
+            width={{ lg: "50%", md: "50%", base: "80%" }}
             gap={{ lg: "10px", md: "10px", base: "2px" }}
             cursor={"pointer"}
           > 
