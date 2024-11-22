@@ -29,7 +29,7 @@
     border: 0px solid white;
     display: flex;
     justify-content: space-between;
-    font-family:sans-serif;
+    font-family:"nanumBold";
     align-items: center;
 }
 #nav_menu > p {

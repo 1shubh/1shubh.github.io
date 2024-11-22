@@ -17,6 +17,7 @@ export const About = () => {
           textAlign={"center"}
           color={"white"}
           size={{ lg: "xl", md: "xl", base: "xl" }}
+          fontFamily={"nanumBold"}
         >
           About Me
         </Heading>
@@ -32,16 +33,17 @@ export const About = () => {
         <div id="aboutText">
           <Reveal effect="fadeInUp">
             <Text color={"white"}>
-              I am a Result-Oriented Frontend Web Developer with appropriate
-              skills who's passionate about developing user-friendly web
-              applications using MERN Stack.
+              I am a Result-Oriented Full Stack Developer and Mobile App
+              Developer with appropriate skills who's passionate about
+              developing user-friendly web applications and mobile Application
+              using React JS and React Native.
             </Text>
           </Reveal>
           <Text color={"white"}>
-            I built a number of web applications and 4 major projects. Learned a
+            I've built a number of web applications and 4 major projects. Learned a
             great deal about teamwork, leadership, and communication. After
             months of rigorous training, here I am looking for an opportunity as
-            a Frontend Web Developer.
+            a Full Stack Developer or Mobile App Developer.
           </Text>
         </div>
       </Box>

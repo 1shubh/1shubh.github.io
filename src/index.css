@@ -3,7 +3,11 @@ body {
   padding: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "nanumReg";
+  src: url(./fonts/NanumGothicCoding-Regular.ttf);
+}
+@font-face {
+  font-family: "nanumBold";
+  src: url(./fonts/NanumGothicCoding-Bold.ttf);
 }

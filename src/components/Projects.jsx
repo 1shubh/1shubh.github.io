@@ -107,6 +107,7 @@ export const Projects = () => {
         marginTop="20px"
         fontSize={{ lg: "4xl", md: "3xl", sm: "xl" }}
         letterSpacing={"4px"}
+        fontFamily={"nanumBold"}
       >
         Build By Me !
       </Heading>
@@ -225,6 +226,7 @@ export const Projects = () => {
           textAlign={"center"}
           marginTop={"50px"}
           fontSize={{ lg: "4xl", md: "3xl", sm: "xl" }}
+          fontFamily={"nanumBold"}
         >
           My Git Stats
         </Heading>
