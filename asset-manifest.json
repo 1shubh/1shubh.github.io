@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.bd6ea7de.css",
-    "main.js": "./static/js/main.f2357f8a.js",
+    "main.js": "./static/js/main.e2d130c9.js",
     "static/js/787.0a4fd98f.chunk.js": "./static/js/787.0a4fd98f.chunk.js",
     "static/media/Glow2.mp4": "./static/media/Glow2.a654d4b7ef54dc9cb8b7.mp4",
     "static/media/Abstract3.mp4": "./static/media/Abstract3.b7525db6882d0eac53ec.mp4",
@@ -14,14 +14,15 @@
     "static/media/antony.png": "./static/media/antony.9ddb6e8fee8722003f86.png",
     "static/media/aboutgif.gif": "./static/media/aboutgif.e5c19b68fc0f40e2228a.gif",
     "static/media/wallmart.png": "./static/media/wallmart.2721e8f2171d2d671974.png",
-    "static/media/Shubham_Kumar_Resume.pdf": "./static/media/Shubham_Kumar_Resume.d4033a3cb05b6685f420.pdf",
     "static/media/lovoda.png": "./static/media/lovoda.444a2afeb01758af6dc6.png",
     "static/media/fiverr.png": "./static/media/fiverr.f8696db0af442df97d14.png",
     "static/media/tailwind.png": "./static/media/tailwind.3549d9e451d7abb96934.png",
     "static/media/chakra.png": "./static/media/chakra.e4cb472ccaabf22affba.png",
     "static/media/netlify.png": "./static/media/netlify.603ef81c872f9df8c343.png",
     "static/media/vscode.png": "./static/media/vscode.9bc6e588b5f2b867a8a4.png",
+    "static/media/Shubham_Kumar_Resume.pdf": "./static/media/Shubham_Kumar_Resume.506b01ac4b04e3849520.pdf",
     "static/media/rest.png": "./static/media/rest.29045c6556f3c8149693.png",
+    "static/media/pic.jpg": "./static/media/pic.0c84033f5768d8629e43.jpg",
     "static/media/mongo.png": "./static/media/mongo.95ebe78cca60e67709b4.png",
     "static/media/logo.png": "./static/media/logo.feee240b83c2bbc00ff0.png",
     "static/media/github.png": "./static/media/github.03a5e2860415984a7ff5.png",
@@ -29,7 +30,6 @@
     "static/media/LinkedIn_icon_circle.svg.png": "./static/media/LinkedIn_icon_circle.svg.c98fb3b64eecd80d2ca1.png",
     "static/media/linkedin.png": "./static/media/linkedin.c98fb3b64eecd80d2ca1.png",
     "static/media/react.png": "./static/media/react.e71f4c5b0c4306d65355.png",
-    "static/media/pic.png": "./static/media/pic.955dcec6897c2ad1eebc.png",
     "static/media/native.png": "./static/media/native.a8042d4f255f9708a3cf.png",
     "static/media/nextjs.png": "./static/media/nextjs.331efda6800a28298b1b.png",
     "static/media/css.png": "./static/media/css.e31e30fbd381c3f058df.png",
@@ -42,11 +42,11 @@
     "static/media/heroku.webp": "./static/media/heroku.23b889b125e66e6d954d.webp",
     "index.html": "./index.html",
     "main.bd6ea7de.css.map": "./static/css/main.bd6ea7de.css.map",
-    "main.f2357f8a.js.map": "./static/js/main.f2357f8a.js.map",
+    "main.e2d130c9.js.map": "./static/js/main.e2d130c9.js.map",
     "787.0a4fd98f.chunk.js.map": "./static/js/787.0a4fd98f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd6ea7de.css",
-    "static/js/main.f2357f8a.js"
+    "static/js/main.e2d130c9.js"
   ]
 }
