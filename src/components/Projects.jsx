@@ -21,7 +21,27 @@ import { SiNetlify } from "react-icons/si";
 import Zoom from "react-reveal/Zoom";
 import ar from "../images/ar.png";
 import toyota from "../images/toyota.png";
+import kcb from "../images/kcb-clone.png"
 const projectsData = [
+  {
+    imgUrl: kcb,
+    title: "KCB Bank app Clone",
+    discription:
+      "Developed a KCB Bank clone app as part of a client project to demonstrate the app's workflow. The backend has been built using Node.js.",
+    techStack: [
+      {
+        tech: react,
+        tooltip: "React Native",
+      },
+      {
+        tech: "",
+        tooltip: "Node Js",
+      },
+      { tech: tailwind, tooltip: "Nativewind CSS" },
+    ],
+    github: "",
+    deployed: "https://artificialreality.in/",
+  },
   {
     imgUrl: toyota,
     title: "Toyota India Urban Cruiser page",
@@ -165,9 +185,10 @@ export const Projects = () => {
         {projectsData.map((ele) => (
           <Zoom>
             <Box border={"2px solid #ffc400"} borderRadius="10px" height={"full"}>
-              <Box w={"100%"}>
+              <Box w={"100%"} h={"300px"}>
                 <Image
                   w={"100%"}
+                  h={"full"}
                   borderTopRadius="7px"
                   src={ele.imgUrl}
                   alt="img"
