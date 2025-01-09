@@ -12,15 +12,54 @@ import js from "../images/js.png";
 import redux from "../images/redux.png";
 import chakra from "../images/chakra.png";
 import rest from "../images/rest.png";
-import nextjs from "../images/nextjs.png"
-import tailwind from "../images/tailwind.png"
+import nextjs from "../images/nextjs.png";
+import tailwind from "../images/tailwind.png";
 import { Tooltip } from "@chakra-ui/react";
 import { Box, Image, Heading, Text, Button, Grid } from "@chakra-ui/react";
 import { FaGithub } from "react-icons/fa";
 import { SiNetlify } from "react-icons/si";
 import Zoom from "react-reveal/Zoom";
-
+import ar from "../images/ar.png";
+import toyota from "../images/toyota.png";
 const projectsData = [
+  {
+    imgUrl: toyota,
+    title: "Toyota India Urban Cruiser page",
+    discription:
+      "Developed a static information page for Toyota India, showcasing all the details of the newly launched Urban Cruiser. This page provides users with a comprehensive overview of the car's features, specifications, and highlights, ensuring an engaging and informative experience.",
+    techStack: [
+      {
+        tech: html,
+        tooltip: "HTML5",
+      },
+      {
+        tech: css,
+        tooltip: "CSS",
+      },
+      { tech: js, tooltip: "JavaScript" },
+    ],
+    github: "",
+    deployed: "https://artificialreality.in/",
+  },
+  {
+    imgUrl: ar,
+    title: "Artificial Reality",
+    discription:
+      "Artificial Reality is a creative content production studio specializing in CGI, Print, Promotional Materials , Web Applications, Films and Videos.",
+    techStack: [
+      {
+        tech: nextjs,
+        tooltip: "Next.JS",
+      },
+      {
+        tech: tailwind,
+        tooltip: "Tailwind CSS",
+      },
+      { tech: chakra, tooltip: "Chakra UI" },
+    ],
+    github: "",
+    deployed: "https://artificialreality.in/",
+  },
   {
     imgUrl: antony,
     title: "Antony Waste",
@@ -28,11 +67,11 @@ const projectsData = [
       "Antony Waste is an indian waste Management company which focuses on Green Future, Clean Energy Generation, Recycling.",
     techStack: [
       {
-        tech:nextjs,
+        tech: nextjs,
         tooltip: "Next.JS",
       },
       {
-        tech:tailwind,
+        tech: tailwind,
         tooltip: "Tailwind CSS",
       },
       { tech: chakra, tooltip: "Chakra UI" },
@@ -42,7 +81,7 @@ const projectsData = [
   },
   {
     imgUrl: wallmart,
-    title: "Wallmart.com",
+    title: "Wallmart.com (clone)",
     discription:
       "Wallmart.com is an American based ecommerce website where a user can buy products from multiple categories like fashion, electronics etc.",
     techStack: [
@@ -125,7 +164,7 @@ export const Projects = () => {
       >
         {projectsData.map((ele) => (
           <Zoom>
-            <Box border={"2px solid #ffc400"} borderRadius="10px">
+            <Box border={"2px solid #ffc400"} borderRadius="10px" height={"full"}>
               <Box w={"100%"}>
                 <Image
                   w={"100%"}
@@ -148,6 +187,7 @@ export const Projects = () => {
                 margin="auto"
                 padding={"10px"}
                 gap="10px"
+                justifyContent={"space-between"}
               >
                 <Text
                   fontFamily={"sans-serif"}
@@ -199,7 +239,7 @@ export const Projects = () => {
                       color="black"
                       leftIcon={<FaGithub />}
                       size={{ base: "sm", lg: "lg", md: "md" }}
-                      disabled = {ele.github==="" ? true : false}
+                      disabled={ele.github === "" ? true : false}
                     >
                       Github
                     </Button>
