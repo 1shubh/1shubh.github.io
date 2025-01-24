@@ -40,7 +40,7 @@ const projectsData = [
       { tech: tailwind, tooltip: "Nativewind CSS" },
     ],
     github: "",
-    deployed: "https://artificialreality.in/",
+    deployed: "",
   },
   {
     imgUrl: toyota,
@@ -59,7 +59,7 @@ const projectsData = [
       { tech: js, tooltip: "JavaScript" },
     ],
     github: "",
-    deployed: "https://artificialreality.in/",
+    deployed: "https://www.toyotabharat.com/showroom/urbancruiser-taisor/",
   },
   {
     imgUrl: ar,
