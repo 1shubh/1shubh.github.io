@@ -8,6 +8,12 @@
     z-index: 1;
     /* box-shadow: rgba(255, 255, 255, 0.386) 0px 3px 8px; */
 }
+.active-link {
+  font-weight: bold;
+  color: #ffc400; /* Change this to your preferred highlight color */
+  /* border-bottom: 2px solid #ff6b6b; */
+}
+
 .activeNav {
     border-bottom: 1px solid #ffc400;
     background-color: black;

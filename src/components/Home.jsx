@@ -56,10 +56,10 @@ export const Home = () => {
             color={"white"}
             fontSize={{ base: "16px", md: "17px", lg: "2xl" }}
           >
-            I'm <span className="name">Shubham Kumar</span>. An enthusiastic and
-            self-driven Full Stack Developer and Mobile App Developer with
-            appropriate skills who's always willing to learn and work across
-            technology and domains.
+            I'm <span className="name">Shubham Kumar</span>. A passionate and
+            self-motivated Full Stack Developer and Mobile App Developer with 2
+            years of experience, strong technical skills, and a keen ability to
+            learn and adapt across various technologies and domains.
           </Text>
           <Stack
             direction={"row"}

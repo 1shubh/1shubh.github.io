@@ -16,6 +16,8 @@ import nativeLogo from "../images/native.png";
 import githubLogo from "../images/github.png";
 import netlifyLogo from "../images/netlify.png";
 import herokuLogo from "../images/heroku.webp";
+import nodeJsLogo from "../images/nodejs.png";
+import expoLogo from "../images/expo.png"
 import "../styles/skills.css";
 
 import LightSpeed from "react-reveal/LightSpeed";
@@ -58,25 +60,28 @@ export const Skills = () => {
       logo: reduxLogo,
       tooltip: "Redux",
     },
-    // {
-    //   logo:
-    //     "https://drive.google.com/uc?export=view&id=1ft72gIzlw6MB8kXTlwUYKolGZXQzkQgX",
-    //   tooltip: "Node Js",
-    // },
-    // {
-    //   logo: expresslogo,
-    //   tooltip: "Express JS",
-    // },
-    // {
-    //   logo: mongologo,
-    //   tooltip: "Mongo DB",
-    // },
+    {
+      logo: nodeJsLogo,
+      tooltip: "Node Js",
+    },
+    {
+      logo: expresslogo,
+      tooltip: "Express JS",
+    },
+    {
+      logo: mongologo,
+      tooltip: "Mongo DB",
+    },
     {
       logo: firebaselogo,
       tooltip: "Firebase",
     },
   ];
   let otherTools = [
+    {
+      logo:expoLogo,
+      tooltip:"Expo"
+    },
     {
       logo: githubLogo,
       tooltip: "Github",
@@ -97,6 +102,7 @@ export const Skills = () => {
       logo: herokuLogo,
       tooltip: "Heroku",
     },
+    
   ];
   return (
     <>

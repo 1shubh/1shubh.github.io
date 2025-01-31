@@ -33,17 +33,17 @@ export const About = () => {
         <div id="aboutText">
           <Reveal effect="fadeInUp">
             <Text color={"white"}>
-              I am a Result-Oriented Full Stack Developer and Mobile App
-              Developer with appropriate skills who's passionate about
-              developing user-friendly web applications and mobile Application
-              using React JS and React Native.
+              I am a results-driven Full Stack Developer and Mobile App
+              Developer with 2 years of experience, passionate about building
+              user-friendly web and mobile applications using React.js and React
+              Native.
             </Text>
           </Reveal>
           <Text color={"white"}>
-            I've built a number of web applications and 4 major projects. Learned a
-            great deal about teamwork, leadership, and communication. After
-            months of rigorous training, here I am looking for an opportunity as
-            a Full Stack Developer or Mobile App Developer.
+            I have developed multiple web applications, including four major
+            projects, gaining valuable experience in teamwork, leadership, and
+            communication. After months of rigorous training, I am now seeking
+            an opportunity as a Full Stack Developer or Mobile App Developer.
           </Text>
         </div>
       </Box>
