@@ -105,9 +105,9 @@ export const projectsData = [
       },
       { tech: tailwind, tooltip: "Nativewind CSS" },
     ],
-    github: "https://github.com/1shubh/kcb-bank",
+    github: "https://github.com/1shubh/clyton-clone",
     deployed:
-      "https://drive.google.com/file/d/1Cr6b33z5U7nn5ulmVvnaBFyT12_-Brne/view?usp=sharing",
+      "https://scenichomes.netlify.app/",
   },
   {
     imgUrl: toyota,
